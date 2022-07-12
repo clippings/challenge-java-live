@@ -1,14 +1,14 @@
 package com.dt.challenge;
 
 import com.dt.challenge.repository.DocumentRepository;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Slf4j
 @Component
 public class CalculateCommand implements CommandLineRunner {
-
+  private static final Logger log = LoggerFactory.getLogger(CalculateCommand.class);
   @Override
   public void run(String... args) throws Exception {
 
