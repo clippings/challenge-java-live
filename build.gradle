@@ -9,7 +9,7 @@ plugins {
 group 'com.dt.challenge'
 version '1.0-SNAPSHOT'
 
-targetCompatibility = '11'
+targetCompatibility = '17'
 
 repositories {
     mavenCentral()
